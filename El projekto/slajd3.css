@@ -1,0 +1,49 @@
+.container3,
+.container4,
+.container5 {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    padding: 55px 0 15px;
+}
+
+.container4 {
+    padding: 30px 0 0;
+}
+
+.container5 {
+    padding: 0 0 55px;
+}
+
+.naglowek {
+    padding: 25px 25px 0;
+    display: flex;
+    font-size: 28px;
+    color: #616670;
+}
+
+.opis h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+    color: #616670;
+}
+
+.opis p {
+    margin: 0;
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+
+.opis {
+    padding: 25px 25px 0;
+    width: 20%;
+    text-align: start;
+}
