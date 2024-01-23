@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slajd1.css">
+    <link rel="stylesheet" href="slajd2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+        integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Brand Name</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="left">
+            <article>
+                <h1>Dzierżawa i serwis kopiarek</h1>
+                <p>Wymień stare kserokopiarki na nowe, bez zakupu nowego urządzenia. Wydzierżawimy je dla Ciebie,
+                    a&nbsp;Ty raz na zawsze pozbędziesz się problemów z&nbsp;instalacją, eksploatacją
+                    i&nbsp;serwisowaniem tych urządzeń.
+                </p>
+
+                <p>
+                    Oferujemy niezawodne urządzenia bez wkładu własnego. Dajemy gwarancję jakości i&nbsp;trwałości,
+                    zapewniamy szybką pomoc serwisową przez cały okres trwania umowy.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" height="100px" width="50px" id="chuj"
+                    viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#000000"
+                        d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                </svg>
+            </article>
+
+        </div>
+        <div class="right">
+            <article>
+            </article>
+        </div>
+    </section>
+
+    <section class="container2">
+
+        <div class="left2">
+            <article>
+                <img src="img/bizhub_C658-2.jpg" alt="">
+            </article>
+        </div>
+        <div class="right2">
+            <article>
+                <h3>Drukuj w abonamencie</h3>
+                <p>Sprawna komunikacja biurowa to podstawa w każdym prężnie rozwijającym się przedsiębiorstwie. Istotne
+                    jest
+                    to, aby korzystanie z urządzeń wielofunkcyjnych było łatwiejsze niż do tej pory. Urządzenia
+                    <span>Konica
+                        Minolta</span> gwarantują, że pracownicy drukowaniu i kopiowaniu poświęcą niewiele uwagi.
+                </p>
+                <p>I-BS.pl umożliwia swoim Klientom dzierżawę nowych urządzeń wielofunkcyjnych. Jest to świetne
+                    rozwiązanie
+                    dla firm, ponieważ znacznie obniża koszty związane z eksploatacją i serwisem. Oferujemy również
+                    szybką i
+                    profesjonalną obsługę serwisową, niski koszt miesięczny oraz kserokopiarki o dużej funkcjonalności.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0];
+        const navLinks = document.getElementsByClassName('navbar-links')[0];
+
+        toggleButton.addEventListener('click', function () {
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>

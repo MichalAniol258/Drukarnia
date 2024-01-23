@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+
+html,
+body,
+section {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container .left,
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+.left article {
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    margin-right: 5rem;
+}
+
+.left #chuj {
+    margin-left: 9rem;
+}
+
+.left {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.10));
+    flex: 1;
+    padding: 1rem;
+    text-align: end;
+    transition: all .2s ease-in-out;
+
+}
+
+.right {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(164, 222, 102, 0.10)), url(https://images.pexels.com/photos/129830/pexels-photo-129830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.left h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 0 0 16px;
+}
+
+.left p {
+    font-size: 1.05rem;
+    text-align: left;
+    margin-bottom: 0 0 16px;
+}
+
+.right h1 {
+    font-size: 3em;
+}
+
+.button {
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #fcad26;
+    padding: 15px 25px;
+    margin: 0 2%;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+
+}
+
+.button:hover {
+    background: #fcc567;
+    color: #fff;
+}
