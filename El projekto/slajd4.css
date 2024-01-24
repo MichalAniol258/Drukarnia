@@ -1,9 +1,60 @@
 .container6 {
-    background-color: #ECF2FB;
+    background-color: white;
     color: #616670;
+    height: auto;
+    max-width: 100%;
     padding: 147px 0 123px;
     margin: 0;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lewa {
+    padding: 0 32px;
+    width: 25rem;
+    height: auto;
+    max-width: 100%;
+}
+
+.lewa,
+.prawa,
+.bardziejPrawa {}
+
+
+.prawa {
+    padding: 10px;
+    width: 25rem;
+    height: auto;
+    max-width: 100%;
+}
+
+.bardziejPrawa {
+    width: 25rem;
+}
+
+.zdjecie img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.headline {
+    text-align: left;
+}
+
+.opisHeadline {
+    text-align: left;
+}
+
+
+.smieszne {
+    color: black;
+    font-weight: bold;
 }
 
 
@@ -11,16 +62,35 @@
     margin: 0 0 16px;
 }
 
+
+.opisTitle i {
+    padding: 0 10px 0 0;
+    font-size: 20px;
+}
+
+
+.opisTitle {
+    text-align: left;
+    display: flex;
+}
+
 .opisTitle p {
     font-size: 16px;
-    margin: 0;
+    margin: 0 0 10px;
+
+}
+
+.title {
+    padding: 10px;
 }
 
 .title h6 {
     font-size: 16px;
     margin: 0;
+    text-align: left;
 }
 
-.headline {
+.headline h3 {
     font-size: 28px;
+    text-align: left;
 }
