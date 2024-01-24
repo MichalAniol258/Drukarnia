@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 .container3 {
     padding: 55px 0 15px;
 }

@@ -22,6 +22,17 @@ body {
     justify-content: end;
 }
 
+.left article div {
+    width: 200px;
+    margin-bottom: 32px;
+    border-bottom: 3px white solid;
+}
+
+.left article h1 {
+    width: 500px;
+    margin: 0;
+}
+
 
 
 .left article {
