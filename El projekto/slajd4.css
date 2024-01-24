@@ -1,0 +1,26 @@
+.container6 {
+    background-color: #ECF2FB;
+    color: #616670;
+    padding: 147px 0 123px;
+    margin: 0;
+    display: flex;
+}
+
+
+.opisHeadline p {
+    margin: 0 0 16px;
+}
+
+.opisTitle p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.title h6 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.headline {
+    font-size: 28px;
+}
