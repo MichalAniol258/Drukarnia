@@ -6,6 +6,7 @@
     width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -51,4 +52,35 @@ body {
     padding: 25px 25px 0;
     width: 20%;
     text-align: start;
+}
+
+@media screen and (max-width: 1275px) {
+    .opis {
+        width: 100%;
+    }
+
+    .naglowek h3 {
+        font-size: 24px;
+    }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+
+    .container3,
+    .container4,
+    .container5 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .opis {
+        width: 100%;
+    }
+
+    .naglowek h3 {
+        font-size: 24px;
+    }
+
 }

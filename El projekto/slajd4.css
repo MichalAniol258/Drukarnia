@@ -11,6 +11,7 @@
 
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
@@ -92,4 +93,67 @@
 .headline h3 {
     font-size: 28px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1275px) {
+    .all {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .title h6 {
+        font-size: 16px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .headline h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .headline {
+        width: 100%;
+    }
+
+    .opisTitle p {
+        font-size: 14px;
+        margin: 0 0 10px;
+        color: #616670;
+    }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+    .all {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .title h6 {
+        font-size: 16px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .headline h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .headline {
+        width: 100%;
+    }
+
+    .opisTitle p {
+        font-size: 14px;
+        margin: 0 0 10px;
+        color: #616670;
+    }
+
 }

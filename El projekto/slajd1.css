@@ -13,13 +13,15 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .container .left,
 .right {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .left article div {
@@ -100,4 +102,44 @@ body {
 .button:hover {
     background: #fcc567;
     color: #fff;
+}
+
+@media screen and (max-width: 1275px) {
+
+
+    .container .left {
+        flex-wrap: nowrap;
+    }
+
+    .left article {
+        width: 100%;
+    }
+
+    .left article h1 {
+        width: max-content;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+    .right {
+        display: none;
+    }
+
+    .container .left {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .left article {
+        width: 100%;
+    }
+
+    .left article h1 {
+        width: max-content;
+        margin: 0;
+    }
 }

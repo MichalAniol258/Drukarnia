@@ -2,6 +2,7 @@
     height: max-content;
     padding-top: 120px;
     padding-bottom: 120px;
+    flex-wrap: nowrap;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -43,4 +44,82 @@
 .right2 article {
     width: 50%;
     text-align: start;
+}
+
+
+@media screen and (max-width: 1275px) {
+    .container2 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .left2 article img {
+        width: 75%;
+    }
+
+    .left2 article {
+        text-align: center;
+    }
+
+    .right2 article {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .right2 article h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0 0 16px;
+    }
+
+    .right2 article p {
+        font-size: 1rem;
+        width: 95%;
+        margin-bottom: 0 0 16px;
+    }
+
+    .right2 article span {
+        font-weight: bold;
+        color: #616670;
+    }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+
+    .container2 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .left2 article img {
+        width: 75%;
+    }
+
+    .left2 article {
+        text-align: center;
+    }
+
+    .right2 article {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .right2 article h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0 0 16px;
+    }
+
+    .right2 article p {
+        font-size: 1rem;
+        width: 95%;
+        margin-bottom: 0 0 16px;
+    }
+
+    .right2 article span {
+        font-weight: bold;
+        color: #616670;
+    }
+
+
 }

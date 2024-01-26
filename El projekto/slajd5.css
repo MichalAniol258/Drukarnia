@@ -2,9 +2,10 @@
     color: #616670;
     padding: 70px 0 65px;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
     background-color: black;
 }
@@ -133,4 +134,44 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1275px) {
+    .taby {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+
+    }
+
+    .tab1,
+    .tab2,
+    .tab3 {
+        width: 30%;
+        height: min-content;
+        margin: 25px;
+    }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+    .taby {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+
+    }
+
+    .tab1,
+    .tab2,
+    .tab3 {
+        width: 70%;
+        height: min-content;
+        margin: 25px;
+    }
+
 }
