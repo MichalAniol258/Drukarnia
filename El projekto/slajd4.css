@@ -1,27 +1,25 @@
 .container6 {
     background-color: white;
     color: #616670;
-    height: auto;
+    height: fit-content;
     max-width: 100%;
     padding: 147px 0 123px;
     margin: 0;
-    width: 100%;
+}
+
+.all {
+
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .lewa {
     padding: 0 32px;
     width: 25rem;
-    height: auto;
     max-width: 100%;
 }
 
-.lewa,
-.prawa,
-.bardziejPrawa {}
 
 
 .prawa {
@@ -93,5 +91,5 @@
 
 .headline h3 {
     font-size: 28px;
-    text-align: left;
+    font-weight: bold;
 }
