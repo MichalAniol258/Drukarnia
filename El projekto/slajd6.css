@@ -32,15 +32,6 @@
     color: black;
 }
 
-.border1 {
-    height: 3px;
-    width: 40px;
-    background: #ff9800;
-    color: #ff9800;
-    background-color: #ff9800;
-    border: 0px;
-}
-
 .footer-items ul {
     list-style: none;
     color: #fff;
@@ -57,12 +48,19 @@
     text-decoration: none;
     outline: none;
     color: #fff;
+    width: 20px;
+    transition: 0.3s;
+}
+
+.footer-items li span {
+    border-bottom: 0px solid white;
     transition: 0.3s;
 }
 
 .footer-items ul a:hover {
-    color: #ff9800;
+    color: #616670;
 }
+
 
 .footer-items ul li {
     margin: 10px 0;
