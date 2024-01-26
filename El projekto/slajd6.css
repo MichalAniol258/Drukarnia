@@ -52,11 +52,6 @@
     transition: 0.3s;
 }
 
-.footer-items li span {
-    border-bottom: 0px solid white;
-    transition: 0.3s;
-}
-
 .footer-items ul a:hover {
     color: #616670;
 }
